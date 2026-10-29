@@ -1,0 +1,10 @@
+AbiMathe - pret pour GitHub + Netlify
+
+1) github.com -> + -> New repository -> nom "abimathe" -> Public -> Create repository
+2) Cliquer "uploading an existing file"
+3) Ouvrir ce dossier, tout selectionner (Ctrl+A) et glisser dans GitHub :
+   index.html, netlify.toml, LISEZMOI.txt et le dossier assets
+   -> attendre la fin -> Commit changes
+4) app.netlify.com -> Add new site -> Import an existing project -> GitHub -> abimathe
+   Build command : vide | Publish directory : .  -> Deploy
+(netlify.toml contient deja ces reglages)
